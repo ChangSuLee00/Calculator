@@ -1,1 +1,2 @@
 # Calculator
+Daily project
