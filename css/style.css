@@ -1,0 +1,108 @@
+body {
+  width: 500px;
+  margin: 4% auto;
+}
+
+.calculator {
+  justify-content: center;
+
+  border: 1px solid #ddd;
+  padding: 20px;
+
+  font-size: 1.8rem;
+}
+
+.numberDisplay {
+  display: flex;
+  align-items: center;
+  justify-content: right;
+
+  height: 60px;
+
+  border: 1px solid #ddd;
+  padding: 10px 15px 10px 15px;
+  margin-left: 15px;
+  margin-right: 15px;
+}
+
+.firstLine {
+  display: flex;
+  justify-content: space-around;
+
+  padding-top: 10px;
+  padding-right: 15px;
+  padding-left: 15px;
+
+  text-align: center;
+}
+
+.innerCalcualtorBody {
+  display: flex;
+
+  padding-bottom: 10px;
+  padding-right: 15px;
+  padding-left: 15px;
+
+  text-align: center;
+}
+
+.numberButton {
+  justify-content: space-around;
+}
+
+.secondLine {
+  display: flex;
+}
+
+.thirdLine {
+  display: flex;
+}
+
+.fourthLine {
+  display: flex;
+}
+
+.fifthLine {
+  display: flex;
+}
+
+.equalButton {
+  width: 80px;
+  border: 1px solid #3079ed;
+  margin: 10px 4px 10px 0;
+  padding: 10px;
+
+  background-color: #3079ed;
+}
+
+.equalButton:hover {
+  cursor: pointer;
+}
+
+#cal_bt {
+  width: 80px;
+  border: 1px solid #ddd;
+  margin: 10px 4px 10px 0;
+  padding: 10px;
+
+  background-color: #bbb;
+
+  text-align: center;
+}
+
+#cal_bt:hover {
+  cursor: pointer;
+}
+
+#num_bt {
+  width: 80px;
+  border: 1px solid #ddd;
+  margin: 10px 4px 10px 0;
+  padding: 10px;
+
+  text-align: center;
+}
+
+#num_bt:hover {
+  cursor: pointer;
+}
